@@ -2,26 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-sf: 'SF Pro Display', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --font-sf: 'SF Pro Display', sans-serif;
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  font-family: var(--font-sf);
 }
