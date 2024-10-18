@@ -22,11 +22,16 @@ export default function Footer(){
           text-xs
           lg:justify-end">
             <li>
-              <a href="#" className="text-gray-500 transition hover:opacity-75"> Terms & Conditions </a>
+              <a href="#" className="
+              text-gray-500
+              transitio
+              hover:opacity-75"> Terms & Conditions </a>
             </li>
     
             <li>
-              <a href="#" className="text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
+              <a href="#" className="text-gray-500
+              transition
+              hover:opacity-75"> Privacy Policy </a>
             </li>
     
             <li>

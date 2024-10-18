@@ -1,8 +1,7 @@
 import "./globals.css";
 
-// Import font dari URL eksternal (SF Pro Display)
 export const metadata = {
-  title: "Makeiteasy | Jasa build website termurah di Semarang",
+  title: "Makeiteasy - Software House based in Semarang",
   description: "Jasa build website termurah",
 };
 

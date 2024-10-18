@@ -19,13 +19,13 @@ export default function Navigations(){
                     </li>
                     <li>
                         <Link
-                        href="/tugas">
+                        href="/pricing">
                             Service
                         </Link>
                     </li>
                     <li>
                         <Link
-                        href="/deadline">
+                        href="/aboutus">
                             About us
                         </Link>
                     </li>
